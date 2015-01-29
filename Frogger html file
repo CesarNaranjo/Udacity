@@ -1,0 +1,31 @@
+
+<html>
+<head>
+	<title>Frogger - A Simple Frogger-like Game using the HTML5 Canvas</title>
+	<meta name="description" content="A simple Frogger-like Game using the HTML5 Canvas">
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">  
+
+	<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
+	<link href='stylesheets/frogger.css' rel='stylesheet' type='text/css'>
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/cake.js"></script>
+	<script type="text/javascript" src="js/frogger.js"></script>
+
+	<meta name="author" content="Brian Stoner">
+	<meta name="google-site-verification" content="ZLo0NHAWFuZoUzjmrDQuSACwrx6fbe0saPr1Y2mfC_c" />
+</head>
+
+<body onload="init();">
+	<div id="leaderboard">
+		<div id="title">Frogger</div>
+		<div id="level"></div>
+		<div id="lives"></div>
+		<div id="score"></div>
+	</div>
+	
+	<div id="message" class="textOverlay"></div>
+
+  <script src="../javascripts/analytics.js"></script>
+</body>
+</html>
